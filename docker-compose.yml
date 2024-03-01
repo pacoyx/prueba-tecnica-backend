@@ -1,0 +1,23 @@
+version: '3'
+services:
+  # backend:
+  #   build: .  
+  #   ports:
+  #     - 3000:3000        
+  #   depends_on:
+  #       - redis-db
+  #   container_name: "web-backend"
+  #   environment:
+  #     - NODE_PORT=3000
+  #     - JWTKEY='my_secret_key'
+  #     - JWT_EXPIRES_IN='60s'
+  #   links:
+  #     - redis-db
+
+  redis-db:
+    image: redis:7.0.0    
+    container_name: "redis-db"
+    restart: always
+    command: redis-server 
+    ports: 
+      - 6379:6379    
