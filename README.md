@@ -1,7 +1,7 @@
 # Prueba tecnica Backend NodeJS Jest Redis Docker
 
 ## Acerca de
-###### Proyecto con Nodejs donde usanmos Jest para testoar algunas funciones, nos conectamos a Redis ( based de datos no relacional para guardar datos de tarjetas con su token para poder ser recuperadas posteriormente), usamos docker para  'dockerizar' la aplicacion y poder levantar el contenedor.
+###### Tokenizacion de Tarjetas: Proyecto con Nodejs donde usamos Jest para testear algunas funciones, nos conectamos a Redis ( base de datos no relacional para guardar datos de tarjetas con su token para poder ser recuperadas posteriormente), usamos docker para  'dockerizar' la aplicacion y poder levantar el contenedor.
 
 
 
