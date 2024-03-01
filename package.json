@@ -7,9 +7,7 @@
     "start": "tsc && node dist/app.js",
     "build": "tsc",
     "dev": "nodemon src/app.ts",
-    "test": "jest --coverage",
-    "test:watch": "jest --watch",
-    "other": "ts-node src/app.ts"
+    "test": "jest --coverage"   
   },
   "keywords": [],
   "author": "",
